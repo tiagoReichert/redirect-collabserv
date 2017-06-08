@@ -22,5 +22,5 @@ class myHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
        self.send_header('Location', new_path)
        self.end_headers()
 
-handler = SocketServer.TCPServer(("0.0.0.0", 8080), myHandler)
+handler = SocketServer.TCPServer(("0.0.0.0", 80), myHandler)
 handler.serve_forever()
