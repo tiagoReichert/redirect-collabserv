@@ -1,5 +1,4 @@
-FROM tiangolo/uwsgi-nginx-flask:flask
+FROM python:2.7-alpine
 ENV PYTHONUNBUFFERED 1
 COPY . /app
-RUN chmod +x entrypoint.sh
-ENTRYPOINT ["./entrypoint.sh"]
+ENTRYPOINT ["python","/app/main.py"]
