@@ -1,5 +1,7 @@
 # Redirect any subdomain to collabserv
 
+[![Build Status](https://travis-ci.org/tiagoReichert/redirect-collabserv.svg?branch=master)](https://travis-ci.org/tiagoReichert/redirect-collabserv)
+
 ###### Container created to redirect from any of your subdomain to https://mail.notes.na.collabserv.com
 
 1. Point your subdomain to this container;
